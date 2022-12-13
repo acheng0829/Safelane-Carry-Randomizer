@@ -1,0 +1,50 @@
+body {
+  background: #1F2937;
+  }
+  
+.layout {
+  display: flex;
+  width: 20%;
+  height: 100%;
+}  
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  }
+
+#hero {
+  font-size: 48px;
+  padding: 14px 28px;
+  text-align: center;
+  color: white;
+  margin: 16px;
+}
+
+.blockButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: lightblue;
+  padding: 14px 28px;
+  font-size: 26px;
+  margin: 16px; 
+}
+
+#pos1List  {
+  color: whitesmoke;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
